@@ -124,4 +124,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 16px;
+}
+
+.writer{
+    display: flex;
+    color: #50545A;
+    font-size: var(--font-size-sm);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 200px;
 }
