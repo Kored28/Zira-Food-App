@@ -11,38 +11,116 @@
     --secondary-color: #FFF;
     --special-color: #FF9100;
     --font-size-sm: 16px;
+    --font-size-lg: 24px;
     --rectangle-color: #1F2125;
     --descript-color: #7A7F84;
     --footer-color:  #51545A;
 }
 
+/* Rectangle Starts */
+.rect-container{
+    display: flex;
+    align-items: center;
+    padding-left: 362px;
+    justify-content: space-between;
+}
+
+.sort-container{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    font-size: var(--font-size-sm);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.grade{
+    display: flex;
+    align-items: center;
+    color: var(--descript-color);
+    gap: 10px;
+}
+
+.g-head{
+    color: var(--special-color);
+}
+
+.grade-list{
+    margin-right: 6px;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    color: var(--descript-color);
+    gap: 10px;
+}
+
+.sort-head{
+    color: var(--special-color);
+}
+
+.sort-list{
+    margin-right: 6px;
+}
+
+.sort-icons{
+    font-size: var(--font-size-lg);
+    color: #707070;
+    margin-right: 30px;
+}
+
+.fa-grip path{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    fill: #707070;
+}
+
+.fa-grip path:hover{
+    fill: var(--special-color);
+}
+
+.fa-list path{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    font-weight: bold; 
+    fill: #707070;
+}
+
+.fa-list path:hover{
+    fill: var(--special-color);
+}
+
+/* Rectangle Ends */
+
 /*  Menu Start */
 
 .menu-container{
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     gap: 15px;
     z-index: 1;
-    font-family: Sf Pro Display;
     margin-top: 10px;
 }
 
 /* Left  */
 
 .left-container{
-    width: 25%;
+    width: 20%;
     background-color: var(--rectangle-color);
     height: 100%;
     margin-left: 40px;
-    position: relative;
+    position: sticky;
+    top: 180px;
 }
 
 .left-head{
     padding: 20px 0 20px 30px;
-    color: #FFF;
-    font-size: 24px;
+    color: var(--secondary-color);
+    font-size: var(--font-size-lg);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -111,7 +189,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 70%;
+    width: 75%;
 }
 
 .wine-container{
@@ -133,7 +211,7 @@
 .body-img{
     width: 130px;
     height: 90px;
-    margin-right: 26px;
+    margin-right: 16px;
 }
 
 .body-head{
@@ -143,17 +221,17 @@
     font-weight: 700;
     line-height: normal;
     width: 250px;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 .body-description{
     width: 300px;
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 .body-description p{
     color: var(--descript-color);
-    font-size: 16px;
+    font-size: var(--font-size-sm);
     font-style: normal;
     font-weight: 400;
     line-height: normal;

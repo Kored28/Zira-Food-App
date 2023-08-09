@@ -6,6 +6,7 @@
     --secondary-color: #FFF;
     --special-color: #FF9100;
     --font-size-sm: 16px;
+    --font-size-xs: 14px;
     --rectangle-color: #1F2125;
 }
 
@@ -94,9 +95,12 @@ a{
     color: var(--primary-color);
 }
 
-.nav-link:hover, .nav-item:hover{
-    color: var(--special-color);
+.nav-item:hover{
     transform: scale(1.2);
+}
+
+.nav-link:hover{
+    color: var(--special-color);
 }
 
 
@@ -177,7 +181,7 @@ a{
 
 .line{
     background-color: var(--primary-color);
-    width: 101.5%;
+    width: 102%;
     height: 1px;
     margin-bottom: 18px;
 }
@@ -208,7 +212,7 @@ a{
 .page a{
     text-decoration: none;
     color: var(--primary-color);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-sm);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -241,7 +245,9 @@ a{
     align-items: center;
     height: 40px;
     gap: 110px;
-    margin-left: 40px;
+    padding-left: 40px;
+    bottom: 0;
+    background-color: var(--background);
 }
 
 .copyright{
@@ -275,7 +281,7 @@ a{
 .footer-text{
     color: var(--footer-color);
     text-align: right;
-    font-size: 14px;
+    font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
