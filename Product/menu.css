@@ -101,8 +101,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 15px;
-    z-index: 1;
+    gap: 20px;
+    z-index: 99;
     margin-top: 10px;
 }
 
@@ -221,12 +221,12 @@
     font-weight: 700;
     line-height: normal;
     width: 250px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .body-description{
-    width: 300px;
-    margin-right: 80px;
+    width: 260px;
+    margin-right: 40px;
 }
 
 .body-description p{
@@ -239,10 +239,9 @@
 
 .price{
     color: #FFF;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-right: 25px;
 }
 
@@ -281,7 +280,7 @@
 
 /* Media Query */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .menu-container{
         margin: 0;
         gap: 0;

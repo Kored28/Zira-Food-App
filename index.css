@@ -7,6 +7,7 @@
     --special-color: #FF9100;
     --font-size-sm: 16px;
     --font-size-xs: 14px;
+    --font-size-lg: 24px;
     --rectangle-color: #1F2125;
     --footer-color: #51545A;
 }
@@ -36,14 +37,14 @@ a{
     position: sticky;
     top: 0;
     z-index: 999;
-    gap: 26px;
-    padding: 26px 0px 0px 40px;
+    gap: 15px;
+    padding: 26px 0px 0px 20px;
     background: var(--background);
 }
 
 .logo img{
-    width: 204px;
-    height: 99px;
+    width: 190px;
+    height: 90px;
     cursor: pointer;
 }
 
@@ -55,7 +56,7 @@ a{
 
 .nav{
     display: flex;
-    gap: 100px;
+    gap: 80px;
     margin-bottom: 26px;
     margin-left: 90px;
     padding-left: 10px;
@@ -89,7 +90,7 @@ a{
     align-items: center;
     list-style: none;
     text-align: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .nav-link, .nav-item{
@@ -127,6 +128,7 @@ a{
     background-color: var(--background);
     border-bottom: 1px solid #36393E;
     color: var(--primary-color);
+    font-size: var(--font-size-sm);
 }
 
 .search input:focus{
@@ -177,12 +179,12 @@ a{
 }
 
 .nav-button:hover{
-    box-shadow: 0px 4px 13px 0px rgba(255, 126, 0, 0.60);
+    box-shadow: 0px 4px 13px 0px rgba(255, 126, 0, 0.30);
 }
 
 .line{
     background-color: var(--primary-color);
-    width: 102%;
+    width: 101%;
     height: 1px;
     margin-bottom: 18px;
 }
@@ -245,8 +247,8 @@ a{
     display: flex;
     align-items: center;
     height: 40px;
-    gap: 110px;
-    padding-left: 40px;
+    gap: 60px;
+    padding-left: 20px;
     bottom: 0;
     background-color: var(--background);
 }
@@ -263,7 +265,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 22px;
 }
 
 .social-link{
@@ -293,7 +295,7 @@ a{
 
 /* Media Query */
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1300px){
     .navbar{
         height: 100px;
     }

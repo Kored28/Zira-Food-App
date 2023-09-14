@@ -35,7 +35,7 @@
                         <a href="/" class="nav-link ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Menu</a>
+                        <a href="../Product/menu.html" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">About us</a>
@@ -69,7 +69,7 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                     <p id="number">00</p>
                 </a>
-                <button class="nav-button">
+                <button type="button" class="nav-button">
                     <img src="../Assets/ico_fire.svg" alt="">
                     <p>Stock</p>
                 </button>
@@ -94,7 +94,26 @@
         
     </div>
 
-
+    <!-- Booking-section -->
+    <div class="booking-container">
+        <h2 class="booking-head">Table Booking</h2>
+        <div class="form-container">
+            <div class="personal-information">
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" name="email" id="email" placeholder="Email ID">
+                <input type="number" placeholder="Phone Number" id="phone">
+            </div>
+            <div class="booking-information">
+                <input type="date" name="select date" id="date">
+                <input type="time"  id="time">
+                <input type="number" value="2" id="people">
+            </div>
+            <div class="note">
+                <textarea name="" id="descript" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit"  class="submit">Submit</button>
+        </div>
+    </div>
 
 
 

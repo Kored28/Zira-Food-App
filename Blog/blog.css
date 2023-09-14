@@ -95,7 +95,7 @@
     align-items: center;
     flex-direction: column;
     background-color: var(--rectangle-color);
-    width: 355px;
+    width: 320px;
     height: 441px;
     padding: 0 34px 0 34px;
     text-decoration: none;
@@ -104,7 +104,7 @@
 }
 
 .card-img{
-    width: 355px;
+    width: 320px;
     height: 213px;
     margin-bottom: 20px;
 }
